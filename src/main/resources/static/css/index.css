@@ -1,0 +1,162 @@
+/* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #fff !important;
+}
+
+
+/* Top Header CSS */
+/* On hover, the links will turn wheat */
+.navbar-nav li a:hover {
+    color: black !important;
+     background-color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: white !important;
+   
+    font-weight: 700;
+    
+     
+}
+ul.dropdown-menu {
+    background-color: black;
+    
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+     color: black !important;
+     background-color: #EFEBE9 !important;
+    
+}
+/* End of Top Header CSS */
+/*  Header CSS */
+
+
+#header {
+  background: url("../img/image.jpg") no-repeat fixed 0 0 rgba(0, 0, 0, 0);
+  display: table;
+  width: 100%;
+}
+#header .container {
+  display: table-cell;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+/* Logo */
+.logo {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.logo a {
+  top: 29px;
+  display: block;
+  position: relative;
+  z-index: 20;
+}
+.logo img {
+  margin-bottom: 15px;
+}
+p.site-slogan {
+  color: #b1a5bd;
+  font-size: 11px;
+  letter-spacing: 8px;
+  margin: 0;
+  padding: 0;
+  right: 15px;
+  text-align: right;
+  top: 68px;
+  position: absolute;
+  z-index: 20;
+  white-space: nowrap;
+}
+/* Social Icons */
+#social {
+  position: relative;
+  right: 36px;
+  top: 0px;
+  z-index: 99;
+}
+#social ul.social-icons li {
+  margin: 0px 1px 0 0;
+}
+/* Hornav */
+#hornav {
+  z-index: 20;
+}
+
+.jumbotron {  
+      color: #fff;
+  }
+html {
+  overflow-y: scroll;
+  height: 100%;
+}
+body {
+  line-height: 1.7em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #474f5b;
+  background-color: #FFFFFF;
+  color: #656565;
+  height: 100%;
+}
+.LogoColor {  
+      color: #fff;
+  }
+/* End of Header Image CSS */
+
+/* Footer */
+
+/* Add a dark background color to the footer */
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+a.up-arrow {
+    float: right;
+    font-size: 20px;
+}
+/* End of Footer */
